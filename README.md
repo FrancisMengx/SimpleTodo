@@ -15,5 +15,5 @@ Complete User Stories:
 * [x] Optional: Reuse the same DialogFragment to add a new item.
 * [x] Optional: UX improvements: when item approach its due date, the background will become light red.
 
-Walk through of stories:
+Walk through of stories:  
 ![demo](https://github.com/FrancisMengx/SimpleTodo/blob/master/Demo.gif)
