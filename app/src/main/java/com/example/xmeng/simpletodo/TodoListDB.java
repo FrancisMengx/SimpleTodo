@@ -56,7 +56,7 @@ public class TodoListDB {
     public ArrayList<TodoItem> getAllItem() {
         ArrayList<TodoItem> items = new ArrayList<TodoItem>();
         String[] columns = {COLUMN_NAME_ITEM_ID, COLUMN_NAME_ITEM_TITLE,
-                COLUMN_NAME_ITEM_DESCRIPTION, COLUMN_NAME_ITEM_DUE, COLUMN_NAME_ITEM_STATUS};
+                COLUMN_NAME_ITEM_DESCRIPTION, COLUMN_NAME_ITEM_DUE};
         Cursor cursor = db.query(TABLE_NAME, columns, null, null, null, null, null);
         int iId = cursor.getColumnIndex(COLUMN_NAME_ITEM_ID);
         int iTitle = cursor.getColumnIndex(COLUMN_NAME_ITEM_TITLE);
