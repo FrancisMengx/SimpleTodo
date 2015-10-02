@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editItemTitle"
+        android:layout_gravity="center_horizontal"
+        android:hint="Add Title"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editItemDescription"
+        android:layout_gravity="center_horizontal"
+        android:hint="Add Description"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dueDatePicker"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false" />
+
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btnEdit"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#2adf89"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
